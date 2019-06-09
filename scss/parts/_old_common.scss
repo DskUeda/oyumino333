@@ -1,0 +1,399 @@
+h1 {
+	margin-top: 20px;
+}
+h1 a {
+	text-decoration: none;
+	font-family: 'Changa One', cursive;
+}
+.sns-btn {
+	padding-top: 10px;
+}
+.sns-btn ul {
+	display: table;
+}
+.sns-btn ul li {
+	display: table-cell;
+	vertical-align: top;
+	padding-right: 5px;
+}
+iframe.twitter-share-button {
+	margin-top:5px !important;
+}
+header {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#toppage {
+	margin-top: 30px;
+	overflow: hidden;
+}
+#toppage2 {
+	display: none;
+}
+#main h3 span {
+	background: linear-gradient(transparent 50%, #BAE4F1 40%);
+}
+#wrap {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+.kv {
+ 	width: 1000px;
+	height: 450px;
+	background: url(../images/main.png) no-repeat;
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+.kv span {
+	text-indent: 100%;
+	white-space: nowrap;
+}
+#main {
+	width: 780px;
+	float: left;
+	border-right: solid 1px #ccc;
+	padding: 0px 10px 20px 0px;
+}
+#main h2 {
+	font-size: 16px;
+	padding: 3px 0px 3px 5px;
+	margin-bottom: 20px;
+	border-left: solid 5px #333;
+}
+#main h3 {
+/*	background: linear-gradient(-135deg, #fff, #efefef);
+	border-radius: 3px;
+	-webkit-border-radius: 3px;*/
+}
+#main section p {
+	font-size: 12px;
+	line-height: 20px;
+	margin: 20px 0;
+}
+.main_info article:nth-child(n+2) {
+	padding-top: 20px;
+	border-top: 1px dashed #ccc;
+}
+.pankuzu {
+	font-size: 10px;
+	margin-bottom: 5px;
+}
+#main section .banner {
+	width: 105px;
+	height: 24px;
+	margin: 20px 0;
+}
+#main section .banner a img {
+	width: 105px;
+	height: 24px;
+	pointer-events: none;
+}
+#main section .banner a {
+	display: block;
+}
+#main section .banner a:hover {
+	opacity: 0.8;
+}
+#main section .info_banner img {
+	height: auto;
+	width: 100%;
+	max-width: 640px;
+	pointer-events: none;
+}
+#schedule {
+	line-height: 22px;
+}
+#schedule dt {
+	font-size: 18px;
+	font-weight: bold;
+}
+#schedule dt:first-child {
+	margin-top: 10px;
+}
+#schedule dt:not(:first-child) {
+	padding-top: 10px;
+	margin-top: 10px;
+	border-top: 1px dashed #ccc;
+}
+#schedule .ivent {
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+	margin-top: 5px;
+	line-height: 18px;
+}
+#schedule .time {
+	line-height: 12px;
+	font-size: 10px;
+	display: block;
+	margin-top: 5px;
+}
+#schedule .performer {
+	font-size: 14px;
+	margin-top: 10px;
+	display: block;
+}
+#schedule .other {
+	font-size: 10px;
+	margin-top: 5px;
+	display: block;
+	line-height: 12px;
+}
+.ticket_contact {
+	display: block;
+	margin-top: 10px;
+	font-size: 12px;
+	text-decoration: none;
+}
+.ticket_contact span {
+	border-bottom: 1px solid #999;
+}
+.ticket_contact span:hover {
+	border-bottom: 1px solid #4b2cf3;
+}
+.disco {
+	font-size: 12px;
+	border-left: 5px solid #999;
+	padding: 2px 0px 2px 5px;
+	margin-top: 20px;
+}
+.youtube {
+	margin: 10px 0px;
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+.youtube iframe,  
+.youtube object,  
+.youtube embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.disco_pct {
+	float: left;
+	display: inline-block;
+	width: 30%;
+	margin-bottom: 0 !important;
+}
+.disco_pct img {
+	width: 100%;
+	height: auto;
+}
+.disco_txt {
+	float: left;
+	display: inline-block;
+	width: 70%;
+	margin-bottom: 0 !important;
+}
+.disco_txt span {
+	display: block;
+	padding-left: 10px;
+}
+.disco_box {
+	overflow: hidden;
+}
+.goods_pct img {
+	width: 100%;
+	height: auto;
+	max-width: 390px;
+}
+.goods_pct {
+	margin-top: 0px !important;
+}
+.goods_box .goods_pct {
+	margin-top: 0px !important;
+	float: left;
+	width: 50%;
+	}
+.goods_box {
+	overflow: hidden;
+}
+#sub {
+	width: 185px;
+	float: right;
+}
+#sub ul::before {
+	content: "official contents";
+	font-size: 12px;
+	font-weight: bold;
+	display: block;
+	padding: 2px 10px;
+	border-left: 5px solid #999;
+	margin-bottom: 10px;
+}
+#sub ul li {
+	margin-bottom: 15px;
+}
+#sub ul li h3 {
+	font-size: 12px;
+}
+#sub ul li a {
+	display: block;
+}
+footer {
+	clear: both;
+	padding: 50px 0 30px;
+	text-align: center;
+}
+footer #copyright {
+	text-align: center;
+	font-size: 12px;
+}
+@media screen and (max-width: 740px) {
+	header {
+		padding: 0px;
+		padding-bottom: 10px;
+		width: 95%;
+	}
+	h1 {
+		margin-top: 10px;
+	}
+	h1 a {
+		font-family: 'Changa One', cursive;
+	}
+	#toppage2 {
+		display: block;
+	}
+	#toppage {
+		display: none;
+	}
+	#wrap {
+		padding: 0px;
+		width: 95%;
+	}
+	nav {
+		margin: 10px 0px 20px 0px;
+	}
+	nav li {
+		float: none;
+		border-left: 8px solid #ccc;
+		margin-right: 0px;
+		margin-bottom: 15px;
+		width: 100%;
+		box-sizing: border-box;
+	}
+	nav li:nth-child(6) {
+		margin-bottom: 0;
+	}
+	nav a {
+		display: block;
+		font-size: 16px;
+		padding: 5px 0px 5px 10px;
+		box-sizing: border-box;
+	}
+	.kv {
+		display: none;
+	}
+	#main h2 {
+		border: none;
+		color: #fff;
+		background-color: #666;
+		border-radius: 3px;
+		-webkit-border-radius: 3px;
+	}
+	#main h3 {
+		/*border-left: solid #ccc 5px;
+		padding-left: 5px;*/
+		line-height: 22px;
+	}
+	#main section p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	#main {
+		float: none;
+		border-right: none;
+		width: 100%;
+		margin-right: 0px;
+		padding: 0;
+	}
+	.main_info p a {
+		font-size: 12px;
+		display: block;
+		width: 100%;
+		padding: 10px 0;
+		background-color: #eee;
+		text-decoration: none;
+		text-align: center;
+		border-radius: 3px;
+		-webkit-border-radius: 3px;
+		box-shadow: 0 1px 2.7px 0.3px rgba(0, 0, 0, 0.15);
+		-webkit-box-shadow: 0 1px 2.7px 0.3px rgba(0, 0, 0, 0.15);
+	}
+	.ticket_contact {
+		width: 100%;
+		padding: 10px 0;
+		background-color: #eee;
+		text-decoration: none;
+		text-align: center;
+		border-radius: 3px;
+		-webkit-border-radius: 3px;
+		box-shadow: 0 1px 2.7px 0.3px rgba(0, 0, 0, 0.15);
+		-webkit-box-shadow: 0 1px 2.7px 0.3px rgba(0, 0, 0, 0.15);
+	}
+	#schedule {
+		margin-bottom: 20px;
+	}
+	.ticket_contact span {
+		border-bottom: none;
+	}
+	.ticket_contact span:hover {
+		border-bottom: none;
+	}
+	.goods_pct img {
+		max-width: 100%;
+	}
+	.disco_txt span {
+		font-size: 12px;
+	}
+
+	#sub {
+		width: 100%;
+		float: none;
+		border-top: 1px dashed #ccc;
+		padding-top: 20px;
+	}
+	#sub aside {
+		margin-top: 20px;
+	}
+	#sub ul {
+		overflow: hidden;
+	}
+	#sub h3 {
+		display: none;
+	}
+	#sub ul li {
+		float: left;
+		width: 49%;
+		margin-top: 10px;
+		margin-bottom: 0;
+	}
+	#sub ul li:nth-child(2n) {
+		float: right;
+	}
+	#sub .sns a {
+		display: block;
+	}
+	#sub .sns img {
+		width: 100%;
+		height: auto;
+	}
+	footer {
+		padding: 30px 0;
+	}
+}
+.small {
+	font-size: 8px;
+	display: block;
+	padding-top: 3px;
+}

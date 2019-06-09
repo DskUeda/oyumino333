@@ -1,0 +1,46 @@
+/* right-contents.scss
+------------------------------------------------------------*/
+#right-contents {
+    & > div {
+        &:not(:last-child) {
+            margin-bottom: 20px;
+        }
+    }
+    .btn-sns {
+        display: table;
+        width: 40%;
+        margin: 0 auto;
+        p {
+            display: table-cell;
+            width: 50%;
+            box-sizing: border-box;
+            a {
+                display: block;
+                padding: 0 5px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .bnr {
+        p {
+            &:not(:last-child) {
+                margin-bottom: 20px;
+            }
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .r-tweet {
+        width: 100% !important;
+        overflow: hidden;
+        iframe {
+            width: 100% !important;
+        }
+    }
+    .r-youtube {
+        //display: none;
+    }
+}

@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+//@import "parts/_reset.scss";
+@import "parts/_header.scss";
+@import "parts/_menu.scss";
+@import "parts/_wrapper.scss";
+@import "parts/_right-contents.scss";
+@import "parts/_footer.scss";
+
+@media screen and (max-width: 767px) { //SP
+    .pc {display: none !important;}
+    .sp {display: block !important;}
+}
+@media screen and (min-width: 768px) { //PC
+    .pc {display: block !important;}
+    .sp {display: none !important;}
+    @import "parts/_768pc.scss";
+}

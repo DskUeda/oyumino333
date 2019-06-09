@@ -1,0 +1,28 @@
+/* footer.scss
+------------------------------------------------------------*/
+footer {
+    margin-top: 30px;
+    text-align: center;
+    .btn-sns {
+        display: table;
+        margin: 0 auto;
+        p {
+            display: table-cell;
+            padding: 0 5px;
+            a {
+                display: block;
+                img {
+                    height: 30px;
+                    width: auto;
+                }
+            }
+        }
+    }
+    #copyright {
+        margin-top: 20px;
+        padding: 60px 0;
+        background-color: #606060;
+        color: #fff;
+        font-size: 12px;
+    }
+}
